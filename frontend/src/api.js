@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const apiClient = axios.create({
-  baseURL: 'https://stocklens-8gi6.onrender.com/',
+  baseURL: 'https://stocklens-8gi6.onrender.com',
   timeout: 30000,
 })
 
